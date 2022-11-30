@@ -1,0 +1,146 @@
+html, body {
+  padding: 5px;
+  font-size: 1em;
+  background-color: #FFF;
+
+  font-family: 'Courier New', serif;
+}
+
+
+div#header h1 {
+  margin: 5px 2px;
+  font-size: 3em;
+  font-weight: bold;
+  color: #EEE;
+}
+
+div#main div h2 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+div#main .message {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+
+  font-size: 1em;
+  color: #005;
+  border-top: 3px solid #00F;
+  border-bottom: 3px solid #00F;
+  background-color: #BBBBFF;
+}
+
+div#main .error {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+
+  font-size: 1em;
+  color: #500;
+  border-top: 3px solid #F00;
+  border-bottom: 3px solid #F00;
+  background-color: #FFBBBB;
+}
+
+
+div#main div.category {
+  margin-top: 55px;
+}
+
+div#main div.category p {
+  margin: 25px 5px;
+}
+
+div#main div.category p .item {
+  font-weight: bold;
+}
+
+div#main div.category p .description {
+  font-weight: normal;
+}
+
+div#main a,
+div#main a:link {
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: none;
+  color: #00A;
+}
+
+div#main a:focus,
+div#main a:hover {
+  text-decoration: underline;
+}
+
+
+div#main span.edit {
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+div#main span.edit a,
+div#main span.edit a:link {
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: #55F;
+}
+
+div#main span.edit a:focus,
+div#main span.edit a:hover {
+  font-weight: bold;
+}
+
+
+div#main form td {
+  padding: 2px 7px;
+}
+
+div#main form input[type='text'],
+div#main form input[type='password'],
+div#main form textarea,
+div#main form select,
+div#main form input[type='submit'] {
+  width: 300px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+div#main form * {
+  box-sizing: border-box;
+}
+
+
+div#main .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #555;
+}
+
+div#main .tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  left: 120%;
+  z-index: 1;
+  padding: 4px 10px;
+
+  font-size: 0.85em;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+}
+
+div#main .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+div#main .navigation {
+  margin-top: 25px;
+}
